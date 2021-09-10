@@ -4,8 +4,8 @@
   "metadata": {
     "_generator": {
       "name": "bicep",
-      "version": "0.4.1.14562",
-      "templateHash": "16972826190265087503"
+      "version": "0.4.412.5873",
+      "templateHash": "12546295469945970310"
     }
   },
   "parameters": {
@@ -43,6 +43,7 @@
   },
   "functions": [],
   "variables": {
+    "a": 123,
     "managedResourceGroupName": "[format('databricks-rg-{0}-{1}', parameters('workspaceName'), uniqueString(parameters('workspaceName'), resourceGroup().id))]"
   },
   "resources": [
